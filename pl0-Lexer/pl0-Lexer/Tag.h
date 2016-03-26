@@ -28,42 +28,6 @@ const std::string SymbolTable[NumberOfSymbol] =
     ",", ";", ".", ":="
 };
 
-const std::string TagTable[NumberOfTags] = {
-    "bad",
-    "identifier",
-    "number",
-    "plus",
-    "minus",
-    "asterisk",
-    "slash",
-    "equal",
-    "nequal",
-    "less",
-    "lessequal",
-    "grater",
-    "graterequal",
-    "parenthesisl",
-    "parenthesisr",
-    "comma",
-    "semicolon",
-    "period",
-    "become",
-    "begin",
-    "end",
-    "if",
-    "then",
-    "while",
-    "do",
-    "call",
-    "const",
-    "var",
-    "procedure",
-    "read",
-    "write",
-    "else",
-    "odd"
-};
-
 enum class Tag {
     Bad,
     Identifier,
@@ -133,6 +97,42 @@ const Tag Tags[] = {
     Tag::Write,
     Tag::Else,
     Tag::Odd
+};
+
+const std::string TagTable[NumberOfTags] = {
+    "bad",
+    "identifier",
+    "number",
+    "plus",
+    "minus",
+    "asterisk",
+    "slash",
+    "equal",
+    "nequal",
+    "less",
+    "lessequal",
+    "grater",
+    "graterequal",
+    "parenthesisl",
+    "parenthesisr",
+    "comma",
+    "semicolon",
+    "period",
+    "become",
+    "begin",
+    "end",
+    "if",
+    "then",
+    "while",
+    "do",
+    "call",
+    "const",
+    "var",
+    "procedure",
+    "read",
+    "write",
+    "else",
+    "odd"
 };
 
 static std::string TagToString(Tag tag) {

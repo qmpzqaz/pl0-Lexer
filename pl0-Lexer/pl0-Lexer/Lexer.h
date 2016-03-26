@@ -19,8 +19,6 @@ public:
     void addlineno();
 
     void Tokenizer();
-
-    void Print();
     std::string TokensToString();
 private:
     Word* getword(std::string);

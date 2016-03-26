@@ -10,10 +10,8 @@ public:
     ~Symbol();
 
     std::string ContentToString() override;
-
-    static Tag SymbolTag(std::string);
 private:
-
+    static Tag SymbolTag(std::string);
 };
 
 Symbol::Symbol() {

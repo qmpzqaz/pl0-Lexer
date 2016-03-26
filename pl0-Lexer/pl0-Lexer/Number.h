@@ -14,10 +14,11 @@ public:
 
     int value();
     void set_value(int);
-    static Tag NumberTag(std::string);
 
     std::string ContentToString() override;
 private:
+    static Tag NumberTag(std::string);
+
     int value_ = 0;
 };
 

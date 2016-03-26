@@ -12,9 +12,8 @@ public:
 
     std::string ContentToString() override;
 
-    static Tag KeywordTag(std::string);
 private:
-
+    static Tag KeywordTag(std::string);
 };
 
 Word::Word() {
