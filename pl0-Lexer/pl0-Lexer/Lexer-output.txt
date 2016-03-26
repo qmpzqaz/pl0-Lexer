@@ -1,0 +1,24 @@
+const        Keyword const
+a            identifier
+=            equal
+6.666        bad
+,            comma
+aghast       identifier
+=            equal
+8            number
+;            semicolon
+Var          Keyword var
+x            identifier
+;            semicolon
+PROCedure    Keyword procedure
+proc         identifier
+;            semicolon
+BEGIN        Keyword begin
+x            identifier
+=            equal
+a            identifier
++            plus
+b            identifier
+;            semicolon
+END          Keyword end
+
