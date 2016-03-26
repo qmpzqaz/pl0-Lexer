@@ -15,9 +15,9 @@ const int NumericalValue = 2;
 
 const std::string KeywordTable[NumberOfKeyword] =
 {
-    "begin",  "end",   "if",    "then",   "while",
-    "do",	  "call",  "const", "var",    "procedure",
-    "read",  "write",  "else",  "odd"
+    "begin", "end", "if", "then", "while",
+    "do", "call",  "const", "var", "procedure",
+    "read", "write", "else", "odd"
 };
 
 const std::string SymbolTable[NumberOfSymbol] =
